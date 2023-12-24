@@ -1,0 +1,20 @@
+*{
+    background-color: black;
+    color: white;
+   
+}
+
+.entradas{
+    width: 50px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao{
+    background-color: white;
+    color: white;
+    width: 30px;
+    height: 20px;
+}
