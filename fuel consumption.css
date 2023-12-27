@@ -1,6 +1,8 @@
 *{
     background-color: black;
     color: white;
+    flex-direction: column;
+
    
 }
 
@@ -10,5 +12,12 @@
     color: black;
     justify-content: center;
     text-align: center;
+    margin: 10px;
 }
 
+.buttonCalc{
+    margin: 10px;
+}
+
+/* 
+//display flex estava fazendo ser impresso na tela a inforção de cdata */
