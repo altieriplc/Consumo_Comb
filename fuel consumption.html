@@ -7,18 +7,20 @@
     <title>Document</title>
 </head>
 <body> 
-    <label for="kmPercorrido">Insira Quantidade de Km Percorrida</label>
+
+    <div class="card">
+    <label for="kmPercorrido" class="labelEntradas">Insira Quantidade de Km Percorrida</label>
     <input name="entKm" class="entradas" id="kmPercorrido" type="number">
     <br>
-    <label for="valorComb">Insira Preço do Combustível</label>
+    <label for="valorComb" class="labelEntradas">Insira Preço do Combustível</label>
     <input name="entValor" class="entradas" id="valorComb" type="number">
     <br>
-    <label for="consCarro">Insira o Consumo do Carro</label>
+    <label for="consCarro" class="labelEntradas">Insira o Consumo do Carro</label>
     <input name="entCons" class="entradas" id="consCarro" type="number">
     <br>
     
     
-    <button id="resultado" class="buttonCalc">Calcular</button>
+    <button id="botaoresultado" class="buttonCalc">Calcular</button>
     <br>
     <select name="selicCarros" id="selecionarCarro">
         <option value="">Escolha o Veículo</option>
@@ -26,9 +28,11 @@
         <option value="belina">Belina</option>
     </select>
     
+    <br>
+    <button id="figma">Aperte Aqui</button>
     
     
-    
+</div>
     <script src="fuel consumption.js"></script>
 
 
