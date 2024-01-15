@@ -1,3 +1,11 @@
+*{
+    text-align: center; /* Centraliza horizontalmente o texto dentro da div */
+    margin: auto; /* Centraliza a div horizontalmente no contêiner pai */
+    width: 50%; /* Define a largura da div (ajuste conforme necessário) */
+    
+  }    
+
+
 
 .entradas{
     width: 50px;
@@ -10,6 +18,8 @@
 
 .labelEntradas{
     color: white;
+    size: 10px;
+    font-size: 18px;
 }
 
 
@@ -44,10 +54,17 @@
 
 .card{
     width: 414px;
-height: 582px;
-flex-shrink: 0;
-border-radius: 32px;
-background: #3E3E4B;
+    height: 582px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #3E3E4B;
 }
 /* 
 //display flex estava fazendo ser impresso na tela a inforção de cdata */
+
+
+
+/* LINKADO COM RAIZ */
+.border-radius{
+    border-radius: var(--radius-1);
+}

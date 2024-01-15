@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fuel consumption.css">
+    <link rel="stylesheet" href="globalstyle.css">
+
     <title>Document</title>
 </head>
 <body> 
 
-    <div class="card">
-    <label for="kmPercorrido" class="labelEntradas">Insira Quantidade de Km Percorrida</label>
-    <input name="entKm" class="entradas" id="kmPercorrido" type="number">
+    <div id="divPrincipal" class="card">
+    <label for="kmPercorrido" class="labelEntradas">Insira a quantidade de Km percorridos:</label>
+    <input name="entKm" class="entradas border-radius" id="kmPercorrido" type="number">
     <br>
-    <label for="valorComb" class="labelEntradas">Insira Preço do Combustível</label>
-    <input name="entValor" class="entradas" id="valorComb" type="number">
+    <label for="valorComb" class="labelEntradas">Insira o preço do combustível:</label>
+    <input name="entValor" class="entradas border-radius" id="valorComb" type="number">
     <br>
-    <label for="consCarro" class="labelEntradas">Insira o Consumo do Carro</label>
-    <input name="entCons" class="entradas" id="consCarro" type="number">
+    <label for="consCarro" class="labelEntradas">Insira o consumo do carro:</label>
+    <input name="entCons" class="entradas border-radius" id="consCarro" type="number">
     <br>
     
     
     <button id="botaoresultado" class="buttonCalc">Calcular</button>
     <br>
-    <select name="selicCarros" id="selecionarCarro">
+    <select name="selicCarros" id="selecionarCarro" class="border-radius">
         <option value="">Escolha o Veículo</option>
         <option value="moza">Monza</option>
         <option value="belina">Belina</option>
