@@ -1,3 +1,12 @@
 :root{
+        /* Botões */
     --radius-1: 05px;
+    --radius-2: 10px;
+
+    --color-1: black;
+    
+    /* Backgorund Color */
+    --color-2: #3E3E4B;
+    --color-3: rgb(46, 69, 116)
+    
 }
