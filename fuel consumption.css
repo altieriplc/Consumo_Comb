@@ -1,12 +1,19 @@
-*{
-    text-align: center; /* Centraliza horizontalmente o texto dentro da div */
-    margin: auto; /* Centraliza a div horizontalmente no contêiner pai */
-    width: 50%; /* Define a largura da div (ajuste conforme necessário) */
-    margin-top: 10vh;
+body{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 20% 40% 40%;
     background-color: var(--color-3);
-    
-  }    
+}
 
+#divPrincipal{
+    text-align: center; /* Centraliza horizontalmente o texto dentro da div */
+    margin: auto;
+    grid-column: 2 ;
+    grid-row: 2 ;
+    border: 2px solid;
+    border-color: aliceblue;
+    
+}
 
 
 .entradas{
@@ -15,8 +22,8 @@
     color: black;
     justify-content: center;
     text-align: center;
-    margin: 20px;
-    
+    margin-top: 50px;
+    margin-left: 12px;
 }
 
 .labelEntradas{
@@ -25,17 +32,18 @@
     font-size: 18px;
     background-color: var(--color-2);
     font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+        
 }
 
 
 .buttonCalc{
-    margin: 5px;
+    margin-top: 50px;
     width: 130px;
     height: 25px;
     flex-shrink: 0;
     border-radius: var(--radius-1);
     background: #D9D9D9;
-    
 }
 
 .buttonCalc:hover{
