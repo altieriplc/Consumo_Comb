@@ -10,37 +10,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body> 
+    <body> 
+        
+        <div id="divPrincipal" class="card">
+            <label for="kmPercorrido" class="labelEntradas">Insira a quantidade de km's percorridos:</label>
+            <input name="entKm" class="entradas border-radius" id="kmPercorrido" type="number">
+            <br>
+            
+            <label for="valorComb" class="labelEntradas">Insira o preço do combustível:</label>
+            <input name="entValor" class="entradas border-radius" id="valorComb" type="number">
+            <br>
+            
+            <label for="consCarro" class="labelEntradas">Insira o consumo do carro:</label>
+            <input name="entCons" class="entradas border-radius" id="consCarro" type="number">
+            <br>
 
-    <div id="divPrincipal" class="card">
-    <label for="kmPercorrido" class="labelEntradas">Insira a quantidade de km's percorridos:</label>
-    <input name="entKm" class="entradas border-radius" id="kmPercorrido" type="number">
-    <br>
-    <label for="valorComb" class="labelEntradas">Insira o preço do combustível:</label>
-    <input name="entValor" class="entradas border-radius" id="valorComb" type="number">
-    <br>
-    <label for="consCarro" class="labelEntradas">Insira o consumo do carro:</label>
-    <input name="entCons" class="entradas border-radius" id="consCarro" type="number">
-    <br>
-    
-    
-    <button id="botaoresultado" class="buttonCalc">Calcular</button>
-    <br>
-    <select name="selicCarros" id="selecionarCarro" class="selecionaVeiculos">
-        <option value="" class="selecionaVeiculos">Escolha o Veículo</option>
-        <option value="moza" class="selecionaVeiculos">Clio</option>
-        <option value="belina" class="selecionaVeiculos">Kwid</option>
-        <option value="belina" class="selecionaVeiculos">T6</option>
+            <label for="" id="goBack">Ida e volta?</label>
+            <input type="checkbox" name="" id="idaVolta">
+            <br>
 
-    </select>
-    
-    <br>
-    <!-- <button id="figma">Aperte Aqui</button> -->
-    
-    
-</div>
-    <script src="fuel consumption.js"></script>
+            <button id="botaoresultado" class="buttonCalc">Calcular</button>
+            <br>
+            <select name="selicCarros" id="selecionarCarro" class="selecionaVeiculos">
+                <option value="" class="selecionaVeiculos">Escolha o Veículo</option>
+                <option value="" class="selecionaVeiculos">Clio</option>
+                <option value="" class="selecionaVeiculos">Kwid</option>
+                <option value="" class="selecionaVeiculos">T6</option>
+                <option value="" class="selecionaVeiculos">Onix</option>
+            </select>
+
+            <br>
+            <!-- <button id="figma">Aperte Aqui</button> -->
 
 
-</body>
+        </div>
+
+        <script type="module" src="arrays.mjs"></script>
+        <script type="module" src="fuel consumption.mjs"></script>
+
+    </body>
 </html>
