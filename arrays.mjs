@@ -25,3 +25,4 @@ export let opcoesDeCarros = [
         consumo: 13.3,
     }
 ];
+
