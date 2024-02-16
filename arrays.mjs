@@ -17,12 +17,17 @@ export let opcoesDeCarros = [
     {
         nome:"T6",
         marca: "Jac",
-        consumo: 10,
+        consumo: 10.0,
     },
     {
         nome:"Onix",
         marca: "GM",
         consumo: 13.3,
+    },
+    {
+        nome:"Pajero",
+        marca: "Mitisubishi",
+        consumo: 6.0,
     }
 ];
 
