@@ -1,17 +1,9 @@
 
 
-// let testeFigma = document.querySelector('#figma')
 
-// testeFigma.addEventListener("click", function(){
-    //     console.log("TE AMO")
-    // });
-    
-    //criar objetos para modelos dos carros dentro
-    //criar acesso para valor de consumo dentro desse objeto
-    
-    
-    
-    // window.alert("Resultado no Console")
+window.alert("Resultado no Console")
+
+
 import { opcoesDeCarros } from "./arrays.mjs";
 
 //window.alert('Os valores podem não ser exatos, tanto pelo consumo informado, quanto pela situação mecânica de cada veículo')
