@@ -27,8 +27,9 @@ idaEvolta.addEventListener("change", function(){//CAPTURA BOTÃO IDA E VOLTA
 
 //--------------------------------------------------
 
-result.addEventListener("click" , function() { // FUNÇÃO DO EVENTO CLICK NO BOTÃO CALCULAR
-    
+result.addEventListener("click" , function(event) { // FUNÇÃO DO EVENTO CLICK NO BOTÃO CALCULAR
+    event.preventDefault(); // Evita o comportamento padrão do formulário de recarregar a página
+
     let valorFinal = (dist.value / consumoCarro.value) * (valorKm.value)
     if (consumoCarro.value && valorKm.value && dist.value && idaEvolta.checked) {
         // SE OS 4 CAMPOS ESTIVEREM PREENCHIDOS
