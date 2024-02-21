@@ -1,16 +1,16 @@
 
 
 
-window.alert("Resultado no Console")
+//window.alert("Resultado no Console")
 
 
 import { opcoesDeCarros } from "./arrays.mjs";
 
 //window.alert('Os valores podem não ser exatos, tanto pelo consumo informado, quanto pela situação mecânica de cada veículo')
 
-let dist = document.querySelectorAll("#kmPercorrido")[0]; //CAPTURA O KM PERCORRIDO
+let dist = document.querySelector("#kmPercorrido")[0]; //CAPTURA O KM PERCORRIDO
 
-let valorKm = document.querySelectorAll("#valorComb")[0]; //CAPTURA O INPUT DO VALOR DO COMBUSTÍVEL
+let valorKm = document.querySelector("#valorComb")[0]; //CAPTURA O INPUT DO VALOR DO COMBUSTÍVEL
 
 let consumoCarro = document.querySelector("#consCarro"); //CAPTURA O CONSUMO DO COMBUSTÍVEL
 
@@ -18,7 +18,7 @@ let result = document.querySelectorAll("#botaoresultado")[0]; //CAPTURA O BOTÃO
 
 let selecCarro = document.getElementById("selecionarCarro"); //CAPTURA O SELECT
 
-let idaEvolta = document.getElementById('idaVolta') //CAPTURA O CHECKED DO BOTÃO IDA E VOLTA
+let idaEvolta = document.querySelector('#idaVolta') //CAPTURA O CHECKED DO BOTÃO IDA E VOLTA
 
 //--------------------------------------------------
 
