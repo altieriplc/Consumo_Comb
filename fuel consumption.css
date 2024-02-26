@@ -7,10 +7,10 @@
 /*Box model stuff*/
     border-top-left-radius: var(--radius-3); 
     border-top-right-radius: var(--radius-3);
-    background-color: rgb(67, 67, 188);
+    background-color: rgb(45, 54, 164);
 /*Typography stuff*/
     color: white;
-
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1)
 }
 
 body{
@@ -34,7 +34,7 @@ body{
     border: solid 2px black;
     border-bottom-left-radius: var(--radius-3); 
     border-bottom-right-radius: var(--radius-3);
-    
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1)
 
 
 }
@@ -54,7 +54,6 @@ body{
     height: 15px;
     margin: 10px;
     border-radius: var(--radius-1);
-
 }
 
 #idaVolta{
